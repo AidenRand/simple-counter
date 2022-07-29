@@ -22,3 +22,11 @@ const countDown = () => {
 };
 countDown();
 
+// button that resets the counter
+const resetCounter = () => {
+  resetBtn.addEventListener("click", () => {
+    counter = 0;
+    number.textContent = counter;
+  });
+};
+resetCounter();
