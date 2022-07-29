@@ -12,3 +12,13 @@ const countUp = () => {
   });
 };
 countUp();
+
+// Button that increments the counter down
+const countDown = () => {
+  decreaseBtn.addEventListener("click", () => {
+    counter -= 1;
+    number.textContent = counter;
+  });
+};
+countDown();
+
